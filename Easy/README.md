@@ -1,0 +1,1 @@
+EASY:  Work through the how to npm workshop lessons and screenshot your completed exercises. Information available at  https://nodeschool.io/  and https://github.com/workshopper/how-to-npm

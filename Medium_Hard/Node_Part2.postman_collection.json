@@ -1,0 +1,115 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Node_Guided_Inquiry_Part2",
+		"_postman_id": "aaebfbf6-1655-7056-8996-4a16b182ff1f",
+		"description": "Node part 2 Medium and Hard Challenge ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Main Pages",
+			"request": {
+				"url": "http://localhost:4000/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Run export PORT=4000 in terminal. If you assign a different port use that instead of 4000. If you do not assign a port, use port 4001 to run http requests. \nMain Page\nhttp://localhosst:4000/     \n\n\n"
+			},
+			"response": []
+		},
+		{
+			"name": "All Employees",
+			"request": {
+				"url": "http://localhost:4000/employees",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "http://localhost:4000/employees"
+			},
+			"response": []
+		},
+		{
+			"name": "Employee by Id",
+			"request": {
+				"url": "http://localhost:4000/employees/5",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "http://localhost:4000/employees/5"
+			},
+			"response": []
+		},
+		{
+			"name": "POST New Employee ",
+			"request": {
+				"url": "http://localhost:4000/employees/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Post Post\",\n    \"salary\": 7500000000,\n    \"department\": \"Post Boss \"\n}"
+				},
+				"description": "http://localhost:4000/employees/"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Changes to Existing Id Employee",
+			"request": {
+				"url": "http://localhost:4000/employees/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"name\": \"Put Put Putter\",\n    \"salary\": 7500000000,\n    \"department\": \"P in put\"\n}"
+				},
+				"description": "http://localhost:4000/employees/1"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE by Employee Id",
+			"request": {
+				"url": "http://localhost:4000/employees/3",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "http://localhost:4000/employees/3\n\nHave Id = the employee Id that you want to delete. "
+			},
+			"response": []
+		},
+		{
+			"name": "All Changes ",
+			"request": {
+				"url": "http://localhost:4000/employees/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "http://localhost:4000/employees/"
+			},
+			"response": []
+		}
+	]
+}

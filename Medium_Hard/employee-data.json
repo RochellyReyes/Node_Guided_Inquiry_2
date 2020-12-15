@@ -1,0 +1,64 @@
+{
+    "employees":[
+        {
+            "name":"Rochelly Reyes",
+            "id":1,
+            "salary":7500000000,
+            "department":"Boss"
+        },
+        {
+            "name":"Celio Reyes",
+            "id":2,
+            "salary": 1000000000000,
+            "department":"Boss"
+        },
+        {
+            "name":"Maria B",
+            "id":3,
+            "salary":2000000,
+            "department":"Front-end"
+        },
+        {
+            "name":"Bobby Brown",
+            "id":4,
+            "salary":13000,
+            "department":"Cosmetics"
+        },
+        {
+            "name":"Bob Ross",
+            "id":5,
+            "salary":125630,
+            "department":"Artist"
+        },
+        {
+            "name":"Wendy Wu",
+            "id":6,
+            "salary":100000000,
+            "department":"Homecoming Warrior"
+        },
+        {
+            "name":"Bad Bunny",
+            "id":7,
+            "salary":125000000,
+            "department":"Artist"
+        },
+        {
+            "name":"Sam Smith",
+            "id":8,
+            "salary":1075200,
+            "department":"Artist"
+        },
+        {
+            "name":"Danny P",
+            "id":9,
+            "salary":75000,
+            "department":"Random"
+        },
+        {
+            "name":"Robert Pattinson",
+            "id":10,
+            "salary":4500000,
+            "department":"Actor"
+        }
+    ]
+}
